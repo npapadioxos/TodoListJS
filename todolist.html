@@ -1,0 +1,41 @@
+﻿<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="todolist.css" />
+</head>
+<body>
+    <div id="content">
+        <span><b><u>TODO List</u></b></span>
+        <ul id="todo-list">
+            <li class="todo-list-item">Coffee</li>
+            <li class="todo-list-item">Tea</li>
+            <li class="todo-list-item">Milk</li>
+        </ul>
+
+        <form action="#">
+            <input id="newItem">
+            <input id="newItemButton" value="Add" type="submit">
+        </form>
+        <span id="errorLabel" class="error"></span>
+
+        <span id="TODO CounterLabel">Items Remaining in TODO list: </span>
+        <span id="TodoCounter" class="counter">3</span>
+        <!--<span id="TodoCounter">3</span>-->
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <span><b><u>Done List</u></b></span>
+        <ul id="done-list"></ul>
+        <span id="DONE CounterLabel">Items Remaining in DONE list: </span>
+        <span id="DoneCounter" class="counter">0</span>
+        <!--<span id="DoneCounter">0</span>-->
+    </div>
+</body>
+</html>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="todolist.js"></script>
